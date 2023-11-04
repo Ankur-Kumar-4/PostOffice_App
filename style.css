@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.homepage{
+ display: flex;   
+}
+
+.add{
+flex: 1;
+background-color: black;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.add>h2{
+color: #575A85;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left:20px;
+}
+.add>p{
+    margin: 10px;
+color: #B8BCCC;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left:20px;
+}
+
+.add>img{
+   width: 31vw; 
+   margin-top: 8vh;
+   margin-left: 8vw;
+}
+
+.ipGetStarted{
+flex: 1;
+background-color: #575A85;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px;
+}
+
+#ipAddress{
+    color: #B8BCCC;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+#ipAddress>span{
+color: #FFF;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#getStarted{
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid #B8BCCC;
+    width: 300px;
+    height: 67px;
+    flex-shrink: 0;
+    background-color: transparent;
+    color: #B8BCCC;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hide{
+    display: none;
+}
+
+
+
+
+   /*    after button get clicked      */
+
+
+
+
+
+.details{
+    background-color: black;
+    height: 20vh;
+    padding: 25px;
+}   
+
+.ip{
+color: rgba(184, 188, 204, 0.50);
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.ip>span{
+    margin-left: 5px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+.row-1{
+margin-top: 25px;
+color: rgba(184, 188, 204, 0.50);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+display: flex;
+gap: 220px;;
+
+}
+.row-2{
+    margin-top: 10px;
+    color: rgba(184, 188, 204, 0.50);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    display: flex;
+    gap: 206px; 
+}
+
+
+.mapContainer{
+background-color: #575A85;
+height: 100vh;
+padding: 15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.mapContainer>h2{
+color: #B8BCCC;
+text-align: center;
+font-family:Inter;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 20px;
+}
+iframe{
+    width: 92vw;
+    height: 80vh;
+}
+
+.moreInfo{
+    background-color: black; 
+    padding: 5px;
+}
+
+.moreInfo>h3{
+margin-top: 30px;
+color: #B8BCCC;
+text-align: center;
+font-family: Inter;
+font-size:36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 60px;
+}
+.moreInfo>p{
+color: rgba(184, 188, 204, 0.50);
+font-family: Inter;
+margin-top: 20px;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 40px;
+}
+
+.moreInfo>h4{
+    margin-top: 60px;
+    color: #B8BCCC;
+    text-align: center;
+    font-family: Inter;
+    font-size:36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+.inputSearch{
+border-radius: 10px;
+border: 3px solid #575A85;
+width: 92vw;
+margin: auto;
+padding: 5px;
+box-sizing: border-box;
+}
+.inputSearch>img{
+width: 20px;
+position: relative;
+left: 5px;
+top: 4px;
+}
+.inputSearch>input{
+    background-color: transparent;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 2px;
+    width: 85vw;
+    height: 20px;
+    font-size: 16px;
+    
+}
+::placeholder{color: #B8BCCC;
+    font-family: inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cardContainer{
+display: flex;
+flex-wrap: wrap;
+margin-top: 10px;
+padding-top: 40px;
+padding-inline: 50px;
+justify-content: space-between;
+}
+.card{
+border-radius: 10px;
+background: #575A85;
+width: 34vw;
+height: 50vh;
+margin-top: 20px;
+/* width: 380px;
+height: 270px; */
+display: flex;
+flex-direction: column;
+padding-inline: 20px;
+padding-bottom: 10px;
+}
+.card>span{
+color: #B8BCCC;
+font-family: inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 20px;
+}
+
+.fade{
+    color: #b5b9c8;
+    margin-left: 5px;
+}

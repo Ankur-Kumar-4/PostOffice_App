@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Office App </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<section class="homepage " id="homepage">
+
+<div class="add">
+    <h2>Post Office Application</h2>
+    <p>This Application Allows you to extract information about <br> the nearest Post Offices, based on your location.</p>
+
+    <img src="assets\undraw_messenger_re_8bky 1.png"alt="" >
+</div>
+
+<div class="ipGetStarted">
+            <div id="ipAddress">Your current ip address is <span id="ip-address"></span></div>
+            <button id="getStarted">Get Started</button>
+</div>
+
+
+</section>
+
+
+<section id="main" class="main hide">
+
+<section class="details">
+
+    <div class="ip">IP Address:<span id="ip-detail"></span></div>
+
+    <div class="row-1">
+
+    <div>Lat:  <span class="fade" id="lat"></span>   </div>
+    <div>City: <span class="fade" id="city"></span> </div>
+    <div>Organisation: <span class="fade" id="Organisation"></span></div>
+
+    </div>
+
+    <div class="row-2">
+
+    <div>Long: <span class="fade" id="Long"></span> </div>
+    <div>Region: <span class="fade" id="region"></span> </div>
+    <div>Hostname:</div>
+
+    </div>
+
+
+
+
+</section>
+
+
+<section  class="mapContainer">
+
+    <h2>Your Current Location</h2>
+
+
+    <div id="mapContainer">
+
+        
+    </div>
+
+</section>
+
+<section class="moreInfo">
+    <h3>More Information About You</h3>
+
+
+    <p>Time Zone: <span class="fade" id="timeZone"></span> </p>
+    <p>Date And Time: <span class="fade"  id="date&time"></span></p>
+    <p>Pincode: <span class="fade" id="pincode"></span></p>
+    <p>Message : <span class="fade" id="message"></span></p>
+
+
+    <h4>Post Offices Near You</h4>
+
+    <div class="inputSearch">
+        <img src="assets\Vector (2).png" alt="">
+        <input id="search" type="text" placeholder="Search By Name">
+    </div>
+
+
+    <section id="cardContainer" class="cardContainer">
+
+        
+
+    </section>
+
+
+
+
+</section>
+</section>
+
+
+<script src="index.js"></script>
+<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+</body>
+</html>
